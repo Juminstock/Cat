@@ -1,7 +1,4 @@
 # Astro Starter Kit: Minimal
-
-
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
