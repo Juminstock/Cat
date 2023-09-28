@@ -1,1 +1,1 @@
-<h1 align="center">Crosschain Attendance Tokens🐈</h1>
+<h1 align="center">Crosschain Attendance Tokens 🐈</h1>
