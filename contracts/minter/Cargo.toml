@@ -14,7 +14,6 @@ scale-info = { version = "2.3", default-features = false, features = ["derive"],
 name = "minter"
 path = "src/lib.rs"
 crate-type = [
-	# Used for normal contract Wasm blobs.
 	"cdylib",
 ]
 
