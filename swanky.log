@@ -1,0 +1,24 @@
+[2023-10-02 16:01:57] info:
+     Running command: CompileContract
+      Args: {"contractName":"minter"}
+      Flags: {"release":false,"all":false}
+      Full command: ["/usr/bin/node-18","/home/dany98/.npm/bin/swanky","contract","compile","minter"]
+================================================================================
+[2023-10-02 16:01:58] info:
+     Started compiling contract [minter]
+================================================================================
+[2023-10-02 16:01:58] info:
+     "Looking for contract minter in path: [/home/dany98/Working/Freelancing/Hackaton/2023Q4_cat/contracts/minter]
+================================================================================
+[2023-10-02 16:01:58] info:
+     Running compile command: [["cargo","contract","build","--manifest-path","/home/dany98/Working/Freelancing/Hackaton/2023Q4_cat/contracts/minter/Cargo.toml"]]
+================================================================================
+[2023-10-02 16:02:01] error:
+    ProcessError: [1/*] Building cargo project
+warning: You are using a rustc version that might emit unsupported wasm instructions. Build using a version lower than 1.70.0 to make sure your contract will deploy.
+error: failed to parse manifest at `/tmp/cargo-contract_dRHfeh/contracts/minter/Cargo.toml`
+Caused by:
+  the target `minter` is a binary and can't have any crate-types set (currentlERROR: command ["/home/dany98/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo", "build", "--color=always", "--target=wasm32-unknown-unknown", "-Zbuild-std=core,alloc", "--no-default-features", "--release", "--target-dir=target/ink/minter", "--features", "ink/ink-debug"] exited with code 101
+Error Compiling minter contract
+    at ChildProcess.<anonymous> (file://~/.npm/lib/node_modules/@astar-network/swanky-cli/dist/commands/contract/compile.js:62:36)
+================================================================================
